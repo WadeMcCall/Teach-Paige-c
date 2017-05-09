@@ -1,46 +1,45 @@
+/*
+	in this program, we define functions and use them in our program.
+	functions are a very important building block of large programs. 
+	they help you easily reuse code and simplifies larger problems.
+*/
 #include <iostream>
 
 using namespace std;
 
 /*
-	these are function prototypes. they are here to tell the compiler not to freak out
-	when it sees these functions in your main even though they arent defined yet.
-*/
-
-void sayHello();
-int sum(int a, int b);
-float product(float a, float b);
-
-int main(){
-	sayHello();
-	
-	int a = 4;
-	int b = 3;
-	int c = sum(a, b);
-	cout << c << endl;
-	
-	
-	float x = 4.3;
-	float y = 3.3;
-	cout << product(x,y);
-}
-
-/*
 	this is how you declare a function. 
 	your function must match the function prototype
+	void means that this function returns nothing.
 */
 void sayHello(){   //says hello
-	//this is the body of the function. anything between the braces is part of the function.
 	cout << "hello!" << endl;
 }
 
-
+/*
+	the previous function began with the keyword "void" which meant that it returned nothing.
+	this function begins with "int". this means that this function returns an integer.
+	'a' and 'b' in this function are called arguments. they are passed into the function.
+	the work done to 'a' and 'b' inside of the function does not affect the variables that are passed in. it only affects 'a' and 'b'.
+*/
 int sum(int a, int b){  //returns the sum of the two arguments
-	return a + b;
+	a = a + b;
+	return a;
 }
 
-//returns the product of a and b
-float product(float a, float b){
+
+float product(float a, float b){ //returns the product of a and b
 	return a * b;
 }
 
+int main(){
+	sayHello();     //this is how you call a function.
+	sayHello();     //a function can be reused any number of times.
+	
+	int arg1 = 4;
+	int arg2 = 3;
+	int c = sum(arg1, arg2); //functions can be used in assignment statements. 
+	cout << c << endl;
+	
+	cout << product(4.3,3.3);  //functions can be given to cout which will then print the return value.
+}
