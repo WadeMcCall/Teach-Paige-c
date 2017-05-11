@@ -30,4 +30,5 @@ int main(){
 										//before the third semicolon is the increment statement. it usually is used to increment your count variable.
 										//for loops are a little complex so here is a link that explains them in detail: https://www.tutorialspoint.com/cplusplus/cpp_for_loop.htm
 	}
+
 }

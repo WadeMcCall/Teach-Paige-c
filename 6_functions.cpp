@@ -9,7 +9,6 @@ using namespace std;
 
 /*
 	this is how you declare a function. 
-	your function must match the function prototype
 	void means that this function returns nothing.
 */
 void sayHello(){   //says hello

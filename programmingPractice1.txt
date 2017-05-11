@@ -1,0 +1,28 @@
+Here are some practice problems to do so that you can familiarize yourself with programming and also
+learn to think like a programmer does.
+
+**************EASYISH*******************
+write a program that can find the sum of all numbers divisible by 3 or 5 that are less than 1000.
+hint: 	look up or experiment with the modulo operator (%) 
+		9%3=0.
+		
+write a program that doesnt halt (until out of memory) and prints out the fibonacci sequence.
+The Fibonacci sequence starts with 1, 1. the next number can be obtained by adding the previous 2 numbers.
+Therefore the begining of the sequence is 1, 1, 2, 3, 5, 8, 13...
+
+(not a practice problem) if you enjoyed figuring out the solution to the 2 problems above, look up the euler project. tons of math/programming
+	problems that get hard quickly. you already have a headstart. the first program is a euler project problem.
+
+write a program that asks you for its name, a password or something. if what you tell it isnt what its looking for, it just asks again.
+	if what you give it is what its looking for, it calls you a genius and then halts(program ends).
+
+**************HARD********************
+Write the Mastermind game. The game is as follows:
+	there is a hidden sequence of colors either blue, green, red, or yellow. you can have more colors if you wish.(look up random or refer to randomName.cpp... or just ask me how to make a RNG)
+	every turn, you guess a sequence. the game gives you 2 numbers back. 
+		the first number is how many colors are correct and also in the correct location.
+		the second number is how many colors are correct.
+		
+	make the sequence however long you want, but the real game has a sequence length of 4.
+	if the correct sequence isnt guessed in n guesses, the game calls you a loser.
+	n can be whatever you want, the lower the n, the more difficult.
