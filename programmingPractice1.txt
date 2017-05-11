@@ -9,6 +9,7 @@ hint: 	look up or experiment with the modulo operator (%)
 write a program that doesnt halt (until out of memory) and prints out the fibonacci sequence.
 The Fibonacci sequence starts with 1, 1. the next number can be obtained by adding the previous 2 numbers.
 Therefore the begining of the sequence is 1, 1, 2, 3, 5, 8, 13...
+to stop a program that is executing in command prompt, hold ctrl and press c.
 
 (not a practice problem) if you enjoyed figuring out the solution to the 2 problems above, look up the euler project. tons of math/programming
 	problems that get hard quickly. you already have a headstart. the first program is a euler project problem.
