@@ -1,7 +1,21 @@
 Here are some practice problems to do so that you can familiarize yourself with programming and also
 learn to think like a programmer does.
 
-**************EASYISH*******************
+
+**************EASY*******************
+write a program the adds all the counting numbers between 1 and 10 (1, 2, 3, 4, ...)
+	modify this program to add all numbers between 1 and 10000.
+	modify this program to ask the user an ending value and then add all numbers between 1 and the ending value.
+		**possible problem**: if you are getting negative numbers as sums or numbers that you are sure are incorrect, it is likely your int variable is running out of memory.
+		when an int runs out of memory, it overflows causing this strange behavior. 
+		if you want to know more about variables overflowing: just ask me. I cant find a good article lol
+		**what to do**: instead of declaring your variable an int, declare it as a long int or a long long int.	
+		
+write a program that finds the maximum value in an array of size 5.
+	modify the program to find the minimum value
+
+
+**************MEDIUM*******************
 write a program that can find the sum of all numbers divisible by 3 or 5 that are less than 1000.
 hint: 	look up or experiment with the modulo operator (%) 
 		9%3=0.
