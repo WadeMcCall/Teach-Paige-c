@@ -1,7 +1,7 @@
 Here are some practice problems to do so that you can familiarize yourself with programming and also
 learn to think like a programmer does.
 
-
+refer to the examples we did together!
 **************EASY*******************
 write a program the adds all the counting numbers between 1 and 10 (1, 2, 3, 4, ...)
 	modify this program to add all numbers between 1 and 10000.
