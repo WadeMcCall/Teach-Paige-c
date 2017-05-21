@@ -13,6 +13,13 @@ write a program the adds all the counting numbers between 1 and 10 (1, 2, 3, 4, 
 		
 write a program that finds the maximum value in an array of size 5.
 	modify the program to find the minimum value
+	
+Write a program that takes the average of 10 values.
+	(medium) modify your program to read in values from a file and average them. you will need to use fstream
+			hint - refer to vectors and fstream example program
+	(hard)	 modify your program to take an unknown number of values from a file and average them. you will need to use vectors
+			hint - refer to vectors and fstream example program
+					
 
 
 **************MEDIUM*******************
