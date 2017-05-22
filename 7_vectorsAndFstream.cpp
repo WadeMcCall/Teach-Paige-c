@@ -8,8 +8,6 @@
 	vectors work internally using C++ arrays. They are slightly slower, but much easier to use.
 	for example, with c++ arrays, you have to know the size of the array before declaring it. 
 	however with vectors, they are smart and can expand to fit your memory needs.
-	note: this ^ isnt entirely true. you could implement your own vector class with something called 
-		  dynamic memory allocation but that would be a pain
 	vectors have a certain size that can be obtained using [vector name].size()
 */
 
@@ -39,7 +37,7 @@ int main(){
 								//here i am just adding the next number from the file onto the end of the vector.
 	}
 	float sum = 0;
-	for(int i = 0; i < ins.size(); i++){	//for each value in my "ins" vector
+	for(int i = 0; i < ins.size(); i++){	//for each value in my "ins" vector. size() is a function in the vector class. it returns the size of the vector.
 		sum += ins.at(i);					//add its value to the sum
 	}
 	cout << sum;
